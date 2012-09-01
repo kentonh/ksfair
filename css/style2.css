@@ -66,8 +66,8 @@
 	transition: opacity 0.4s linear, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .cn-slide nav a:hover{
-	border-color: #582036;
-	color: #582036;
+	border-color: #3b64ca;
+	color: #baccf9;
 }
 .cn-slide:target nav a{
 	opacity: 1;
@@ -93,6 +93,28 @@
 	-ms-transition-delay: 0.9s, 0s, 0s;
 	transition-delay: 0.9s, 0s, 0s;
 }
+.cn-slide nav a:nth-child(5){
+	-webkit-transition-delay: 1.2s, 0s, 0s;
+	-moz-transition-delay: 1.2s, 0s, 0s;
+	-o-transition-delay: 1.2s, 0s, 0s;
+	-ms-transition-delay: 1.2s, 0s, 0s;
+	transition-delay: 1.2s, 0s, 0s;
+}
+.cn-slide nav a:nth-child(6){
+	-webkit-transition-delay: 1.5s, 0s, 0s;
+	-moz-transition-delay: 1.5s, 0s, 0s;
+	-o-transition-delay: 1.5s, 0s, 0s;
+	-ms-transition-delay: 1.5s, 0s, 0s;
+	transition-delay: 1.5s, 0s, 0s;
+}
+.cn-slide nav a:nth-child(7){
+	-webkit-transition-delay: 1.8s, 0s, 0s;
+	-moz-transition-delay: 1.8s, 0s, 0s;
+	-o-transition-delay: 1.8s, 0s, 0s;
+	-ms-transition-delay: 1.8s, 0s, 0s;
+	transition-delay: 1.8s, 0s, 0s;
+}
+
 .cn-slide-sub nav a{
 	width: 42%;
 	display: inline-block;
@@ -178,14 +200,30 @@
 }
 /* Main Items */
 .cn-slide nav a[href="#slide-1"]{
-	background-image: url(../images/1.jpg);
+	background-image: url(../images/animals.jpg);
 }
 .cn-slide nav a[href="#slide-2"]{
-	background-image: url(../images/2.jpg);
+	background-image: url(../images/pig_race.jpg);
+		background-position: 0% 83%%;
 }
 .cn-slide nav a[href="#slide-3"]{
-	background-image: url(../images/3.jpg);
+	background-image: url(../images/shopping.jpg);
+	background-position: 0% 45%%;
 }
+.cn-slide nav a[href="#slide-4"]{
+	background-image: url(../images/performer.jpg);
+}
+.cn-slide nav a[href="#slide-5"]{
+	background-image: url(../images/food.jpg);
+	background-position: 0% 27%;
+}
+.cn-slide nav a[href="#slide-6"]{
+	background-image: url(../images/rides.jpg);
+}
+.cn-slide nav a[href="#slide-7"]{
+	background-image: url(../images/people_2.jpg);
+}
+
 
 /* Items and sub-items of slide 1*/
 .cn-slide nav a[href="#slide-1-1"],
