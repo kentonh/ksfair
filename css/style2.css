@@ -66,8 +66,8 @@
 	transition: opacity 0.4s linear, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .cn-slide nav a:hover{
-	border-color: #3b64ca;
-	color: #baccf9;
+	border-color: #1E579E;
+	color: #75AED6;
 }
 .cn-slide:target nav a{
 	opacity: 1;
@@ -199,7 +199,7 @@
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
 }
 /* Main Items */
-.cn-slide nav a[href="#slide-1"]{
+.cn-slide nav a[href="animals.html"]{
 	background-image: url(../images/animals.jpg);
 }
 .cn-slide nav a[href="#slide-2"]{
