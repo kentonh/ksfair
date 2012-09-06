@@ -6,6 +6,37 @@
 	clear: both;
 }
 
+@media all and (max-width: 400px){
+	.container > header{
+	position: fixed;
+	top:0;
+/* 	background: #fff url(../images/bg.jpg) repeat top left; */
+background: rgb(117,174,214); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3NWFlZDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4MCUiIHN0b3AtY29sb3I9IiMyYjk4ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMWU1NzllIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(117,174,214,1) 0%, rgba(43,152,229,1) 80%, rgba(30,87,158,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(117,174,214,1)), color-stop(80%,rgba(43,152,229,1)), color-stop(100%,rgba(30,87,158,1))) no-repeat fixed; /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(117,174,214,1) 0%,rgba(43,152,229,1) 80%,rgba(30,87,158,1) 100%) no-repeat fixed; /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(117,174,214,1) 0%,rgba(43,152,229,1) 80%,rgba(30,87,158,1) 100%) no-repeat fixed; /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(117,174,214,1) 0%,rgba(43,152,229,1) 80%,rgba(30,87,158,1) 100%) no-repeat fixed; /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(117,174,214,1) 0%,rgba(43,152,229,1) 80%,rgba(30,87,158,1) 100%) no-repeat fixed; /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75aed6', endColorstr='#1e579e',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+	z-index: 1000;
+	
+	}
+}
+
+
+
+@media all and (max-width: 400px){
+	.ao-item {
+		width: 100%;
+		margin: 45px 0 0 0;
+		
+	}
+	
+}
+
 .ao-item:before,
 .ao-item:after {
     content:"";
@@ -80,6 +111,12 @@
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+}
+
+@media all and (max-width: 400px){
+	.ao-item{
+		width:153%;
+	}
 }
 
 .ao-annotations {
