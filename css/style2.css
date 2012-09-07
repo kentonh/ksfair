@@ -202,25 +202,25 @@
 .cn-slide nav a[href="animals.html"]{
 	background-image: url(../images/animals.jpg);
 }
-.cn-slide nav a[href="#slide-2"]{
+.cn-slide nav a[href="attractions.html"]{
 	background-image: url(../images/pig_race.jpg);
 		background-position: 0% 83%%;
 }
-.cn-slide nav a[href="#slide-3"]{
+.cn-slide nav a[href="shopping.html"]{
 	background-image: url(../images/shopping.jpg);
 	background-position: 0% 45%%;
 }
-.cn-slide nav a[href="#slide-4"]{
+.cn-slide nav a[href="shows.html"]{
 	background-image: url(../images/performer.jpg);
 }
-.cn-slide nav a[href="#slide-5"]{
+.cn-slide nav a[href="food.html"]{
 	background-image: url(../images/food.jpg);
 	background-position: 0% 27%;
 }
-.cn-slide nav a[href="#slide-6"]{
+.cn-slide nav a[href="rides.html"]{
 	background-image: url(../images/rides.jpg);
 }
-.cn-slide nav a[href="#slide-7"]{
+.cn-slide nav a[href="people.html"]{
 	background-image: url(../images/people_2.jpg);
 }
 
